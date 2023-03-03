@@ -4,7 +4,6 @@ VS Code is een veelzijdige editor met ondersteuning voor allerlei documenttypen,
 
 ## Installatie
 
-
 We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Chocolatey](https://chocolatey.org)) of macOS ([Homebrew](https://brew.sh/)).
 
 === "Windows"
