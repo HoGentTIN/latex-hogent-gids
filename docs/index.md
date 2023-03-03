@@ -1,5 +1,9 @@
 # LaTeX@HOGENT gebruikersgids
 
+Bedoeling van deze gids is alle info te verzamelen om met LaTeX aan de slag te gaan, de beschikbare sjablonen conform de HOGENT huisstijl te gebruiken, vaak voorkomende problemen op te lossen, enz.
+
+Vind je onduidelijkheden, fouten of heb je andere suggesties? Aarzel niet om deze als een [Issue](https://github.com/HoGentTIN/latex-hogent-gids/issues) te melden in onze [Github-repository](https://hogenttin.github.io/latex-hogent-gids/).
+
 ## Installatie
 
 Om LaTeX te kunnen gebruiken heb je het volgende nodig:
