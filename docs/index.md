@@ -8,9 +8,11 @@ Om LaTeX te kunnen gebruiken heb je het volgende nodig:
     - [MikTeX](installatie-miktex.md): Windows
     - [TeX live](installatie-texlive.md): Linux, Windows
     - [macTex](installatie-mactex.md): macOS
-- Een LaTeX IDE of teksteditor met LaTeX-ondersteuning, bv.
+- Een LaTeX IDE of teksteditor met LaTeX-ondersteuning, bv.:
     - [TeXstudio](installatie-texstudio.md)
     - [VS Code](installatie-vscode.md) met de LaTeX Workshop plugin
+- Een reference manager voor het bijhouden van bibliografische gegevens, bv.:
+    - [JabRef](installatie-jabref.md)
 - De [lettertypes](lettertypes.md) gebruikt in de HOGENT-huisstijl en de sjablonen
 
 ## Sjablonen in de HOGENT huisstijl
