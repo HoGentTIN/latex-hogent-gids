@@ -26,8 +26,10 @@ We raden aan om een package manager te gebruiken voor de installatie van softwar
 
 === "RedHat/Fedora/SuSE"
 
+    Ga naar <https://www.jabref.org/#download> en download het `.rpm` bestand. Installeer het vervolgens met:
+
     ```console
-    sudo dnf install jabref
+    sudo dnf install ./jabref*.rpm
     ```
 
 Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://www.jabref.org/#download>.
