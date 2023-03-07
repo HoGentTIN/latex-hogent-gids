@@ -4,7 +4,7 @@ JabRef is een gratis en open-source reference manager. Het is een Java applicati
 
 ## Installatie
 
-We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Chocolatey](https://chocolatey.org)) of macOS ([Homebrew](https://brew.sh/)).
+We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Chocolatey](https://chocolatey.org)) of macOS ([Homebrew](https://brew.sh/)). Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://www.jabref.org/#download>.
 
 === "Windows"
 
@@ -31,8 +31,6 @@ We raden aan om een package manager te gebruiken voor de installatie van softwar
     ```console
     sudo dnf install ./jabref*.rpm
     ```
-
-Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://www.jabref.org/#download>.
 
 ## Configuratie
 
