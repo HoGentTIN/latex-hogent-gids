@@ -4,7 +4,7 @@ TeXstudio is een LaTeX-IDE die goed werkt op alle gangbare desktop-besturingssys
 
 ## Installatie
 
-We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Chocolatey](https://chocolatey.org)) of macOS ([Homebrew](https://brew.sh/)).
+We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Chocolatey](https://chocolatey.org)) of macOS ([Homebrew](https://brew.sh/)). Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://www.texstudio.org/#download>.
 
 === "Windows"
 
@@ -29,8 +29,6 @@ We raden aan om een package manager te gebruiken voor de installatie van softwar
     ```console
     sudo dnf install texstudio
     ```
-
-Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://www.texstudio.org/#download>.
 
 ## Configuratie
 
