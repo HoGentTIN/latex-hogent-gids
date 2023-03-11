@@ -1,9 +1,37 @@
+---
 site_name: LaTeX@HOGENT gebruikersgids
+site_url: "https://hogenttin.github.io/latex-hogent-gids/"
+repo_name: "HoGentTIN/latex-hogent-gids/"
+repo_url: "https://github.com/HoGentTIN/latex-hogent-gids/"
 
 theme:
   name: material
+  features:
+    - navigation.expand
+  favicon: "images/tex-icon.png"
+  logo: "images/tex-icon-white.png"
+
+nav:
+  - "Inhoud": "index.md"
+  - "LaTeX distributies":
+    - "MikTeX": "installatie-miktex.md"
+    - "TeX Live": "installatie-texlive.md"
+    - "MacTeX": "installatie-mactex.md"
+  - "LaTeX editors":
+    - "TeXStudio": "installatie-texstudio.md"
+    - "VS Code": "installatie-vscode.md"
+    - "Jabref": "installatie-jabref.md"
+  - "HOGENT huisstijl": "hogent-huisstijl.md"
+  - "Hulpmiddelen, tools": "hulpmiddelen.md"
+
 
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
