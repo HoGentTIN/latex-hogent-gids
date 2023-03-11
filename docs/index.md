@@ -1,10 +1,10 @@
-# LaTeX@HOGENT gebruikersgids
+# Inhoud
 
 Bedoeling van deze gids is alle info te verzamelen om met LaTeX aan de slag te gaan, de beschikbare sjablonen conform de HOGENT huisstijl te gebruiken, vaak voorkomende problemen op te lossen, enz.
 
-Vind je onduidelijkheden, fouten of heb je andere suggesties? Aarzel niet om deze als een [Issue](https://github.com/HoGentTIN/latex-hogent-gids/issues) te melden in onze [Github-repository](https://hogenttin.github.io/latex-hogent-gids/).
+Vind je onduidelijkheden, fouten of heb je andere suggesties? Aarzel niet om deze als een [Issue](https://github.com/HoGentTIN/latex-hogent-gids/issues) te melden in onze [:simple-github: Github-repository](https://github.com/HoGentTIN/latex-hogent-gids/).
 
-## Installatie
+## Aan de slag
 
 Om LaTeX te kunnen gebruiken heb je het volgende nodig:
 
@@ -15,17 +15,5 @@ Om LaTeX te kunnen gebruiken heb je het volgende nodig:
 - Een LaTeX IDE of teksteditor met LaTeX-ondersteuning, bv.:
     - [TeXstudio](installatie-texstudio.md)
     - [VS Code](installatie-vscode.md) met de LaTeX Workshop plugin
-- Een reference manager voor het bijhouden van bibliografische gegevens, bv.:
-    - [JabRef](installatie-jabref.md)
-- De [lettertypes](lettertypes.md) gebruikt in de HOGENT-huisstijl en de sjablonen
-
-## Sjablonen in de HOGENT huisstijl
-
-Volgende LaTeX-sjablonen zijn conform met de huisstijlregels (of pogen dat in elk geval te doen). Let wel, deze zijn niet officieel erkend door de dienst communicatie.
-
-- [latex-hogent-article](https://github.com/HoGentTIN/latex-hogent-article): sjabloon voor korte documenten zoals een artikel, opgave, ...
-- [latex-hogent-report](https://github.com/HoGentTIN/latex-hogent-report): sjabloon voor langere documenten zoals een stageverslag, syllabus, cursus, ...
-- [latex-hogent-bachproef](https://github.com/HoGentTIN/latex-hogent-bachproef): sjabloon voor de bachelorproef toegepaste informatica
-    - Gebaseerd op latex-hogent-report (scriptie) en latex-hogent-article (onderzoeksvoorstel)
-- [latex-hogent-beamer](https://github.com/HoGentTIN/latex-hogent-beamer): Beamer-presentatie
-- [latex-hogent-exam](https://github.com/HoGentTIN/latex-hogent-exam): sjabloon voor examenopgave + modeloplossing
+    - [JabRef](installatie-jabref.md), een reference manager voor het bijhouden van bibliografische gegevens
+- De lettertypes en sjablonen conform de [HOGENT-huisstijl](hogent-huisstijl.md)
