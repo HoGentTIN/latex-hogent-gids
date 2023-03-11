@@ -1,16 +1,11 @@
 ---
+# Site metadata
 site_name: LaTeX@HOGENT gebruikersgids
 site_url: "https://hogenttin.github.io/latex-hogent-gids/"
 repo_name: "HoGentTIN/latex-hogent-gids/"
 repo_url: "https://github.com/HoGentTIN/latex-hogent-gids/"
 
-theme:
-  name: material
-  features:
-    - navigation.expand
-  favicon: "images/tex-icon.png"
-  logo: "images/tex-icon-white.png"
-
+# Navigation
 nav:
   - "Inhoud": "index.md"
   - "LaTeX distributies":
@@ -24,7 +19,6 @@ nav:
   - "HOGENT huisstijl": "hogent-huisstijl.md"
   - "Hulpmiddelen, tools": "hulpmiddelen.md"
 
-
 markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
@@ -35,3 +29,14 @@ markdown_extensions:
       options:
         custom_icons:
           - overrides/.icons
+
+# Theme settings
+theme:
+  name: material
+  features:
+    - navigation.expand
+  favicon: "images/tex-icon.png"
+  logo: "images/tex-icon-white.png"
+
+extra_css:
+  - stylesheets/extra.css
