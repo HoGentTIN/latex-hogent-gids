@@ -4,7 +4,7 @@ VS Code is een veelzijdige editor met ondersteuning voor allerlei documenttypen,
 
 ## Installatie
 
-We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Chocolatey](https://chocolatey.org)) of macOS ([Homebrew](https://brew.sh/)).
+We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Chocolatey](https://chocolatey.org)) of macOS ([Homebrew](https://brew.sh/)). Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://code.visualstudio.com/download>.
 
 === "Windows"
 
@@ -34,8 +34,6 @@ We raden aan om een package manager te gebruiken voor de installatie van softwar
     ```console
     sudo dnf install ./code-*.rpm
     ```
-
-Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://code.visualstudio.com/download>.
 
 ## Configuratie
 

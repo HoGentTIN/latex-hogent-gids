@@ -4,13 +4,11 @@
 
 ## Installatie
 
-We raden aan om een package manager te gebruiken om software te installeren op Windows ([Chocolatey](https://chocolatey.org/)).
+We raden aan om een package manager te gebruiken om software te installeren op Windows ([Chocolatey](https://chocolatey.org/)). Indien je dit toch niet wenst te doen, dan kan je het downloaden via de website: <https://miktex.org/download>.
 
 ```console
 choco install miktex
 ```
-
-Indien je dit toch niet wenst te doen, dan kan je het downloaden via de website: <https://miktex.org/download>.
 
 ## Configuratie
 
