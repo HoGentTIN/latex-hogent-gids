@@ -47,7 +47,10 @@ Kies in het menu voor Options > Configure TeXstudio en pas volgende instellingen
 - Language Checking:
     – Default language: selecteer "nl_NL-Dutch", "nl-BE" of een gelijkaardige optie voor Nederlands zodat je gebruik kan maken van spellingcontrole. Is deze optie toch niet beschikbaar? Je kan een woordenboekbestand voor OpenOffice of LibreOffice downloaden en installeren. Het dialoogvenster heeft links die je meteen naar de juiste pagina leiden.
 
-## Gebruik
+## Algemeen gebruik
 
 - Om een LaTeX-document (extensie .tex) te compileren, druk F5 (of kies in het menu voor Tools > Build & View)
-- Als je een document met een bibliografie wilt compileren, maar die is niet zichtbaar (en verwijzingen zijn in het vet gedrukt, bv. (**Knuth1977**)), dan moet je de bibliografie apart compileren met F8 (of Tools > Bibliography) en daarna opnieuw F5.
+    - De eerste keer dat je dit doet kan het compilatieproces lang duren. Er zal je op Windows wellicht gevraagd worden of MikTeX wijzigingen mag aanbrengen aan je systeem. Laat dit toe, want wellicht moeten er nog extra packages geïnstalleerd worden. Dit is eenmalig (per document), dus de volgende keer dat je compileert moet dit een stuk sneller gaan.
+- Als je een document met een bibliografie wilt compileren, maar die is niet zichtbaar (en verwijzingen zijn in het vet gedrukt, bv. (**Knuth1977**)), dan moet je de bibliografie apart compileren met F8 (of Tools > Bibliography) en daarna opnieuw F5. Nu zou de bibliografie wel toegevoegd moeten zijn!
+
+Indien er zich fouten voordoen bij de compilatie, kan je onderaan in het tabblad Log een overzicht krijgen van de foutboodschappen. LaTeX foutboodschappen interpreteren vraagt wel wat gewenning. De beste methode is om niet teveel code ineens te schrijven en vaak te compileren. Op die manier weet je dat de fout in je laatste toevoegingen moet zitten!
