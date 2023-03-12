@@ -7,6 +7,7 @@
 - Overleaf documentatie, <https://www.overleaf.com/learn/>
 - Comprehensive TeX Archive Network (CTAN), <https://ctan.org/>
     - Hier vind je alle beschikbare packages die je in een document kan gebruiken, en ook de bijhorende documentatie (typisch als een PDF)
+- [symbols-a4.pdf](https://mirrors.evoluso.com/CTAN/info/symbols/comprehensive/symbols-a4.pdf): Lijst van alle symbolen: <http://www.ctan.org/tex-archive/info/symbols/comprehensive/>
 
 ## Handige tools
 
