@@ -11,6 +11,12 @@ De website is gebouwd met [mkdocs](https://www.mkdocs.org) en de [Material for M
 Als je de website lokaal wil testen, dan kan je dit doen door de volgende stappen te volgen:
 
 - Kloon deze repo
-- Installeer Python, de pip package manager en de packages `mkdocs`, `mkdocs-material` en `mkdocs-material-extensions`
+- Installeer Python en de pip package manager
+- De nodige dependencies zijn te vinden in `requirements.txt`. Installeer deze met het volgende commando:
+
+  ```console
+  pip install -r requirements.txt
+  ```
+
 - Voer het commando `mkdocs serve` uit in de root van de repo
 - Open <http://localhost:8000> in je browser
