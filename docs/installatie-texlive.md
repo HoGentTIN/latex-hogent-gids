@@ -9,7 +9,7 @@ Op Linux zijn de te installeren packages in principe beschikbaar via de reposito
 === "Windows"
 
     ```console
-    choco install texlive --params="'/collections:xetex'"
+    choco install texlive --params="'/collections:fontsrecommended,latex,latexrecommended,langeuropean,pictures,xetex'"
     ```
 
 === "Debian/Ubuntu"
