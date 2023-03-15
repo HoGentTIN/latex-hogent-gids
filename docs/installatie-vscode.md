@@ -45,17 +45,17 @@ Plak de inhoud van dit bestand (zonder accolades) onderaan de User Settings (JSO
 {
   "latex-workshop.latex.recipes": [
     {
-        "name": "xelatex× 2",
+        "name": "xelatex ➞ biber ➞ xelatex× 2",
         "tools": [
+            "xelatex",
+            "biber",
             "xelatex",
             "xelatex"
         ]
     },
     {
-        "name": "xelatex ➞ biber ➞ xelatex× 2",
+        "name": "xelatex× 2",
         "tools": [
-            "xelatex",
-            "biber",
             "xelatex",
             "xelatex"
         ]
