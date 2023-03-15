@@ -1,5 +1,7 @@
 # De HOGENT huisstijl
 
+Zie de HOGENT-website voor officiële informatie over de huisstijl: <https://hogent.be/dit-is-hogent/huisstijl/>.
+
 ## Lettertypes
 
 De HOGENT-huisstijl maakt gebruik van de lettertypes:
