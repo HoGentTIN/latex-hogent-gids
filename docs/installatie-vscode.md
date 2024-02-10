@@ -1,15 +1,15 @@
 # Visual Studio Code
 
-VS Code is een veelzijdige editor met ondersteuning voor allerlei documenttypen, waaronder LaTeX.
+VS Code is een veelzijdige teksteditor met zeer goede ondersteuning voor tientallen programmeer- en scriptingtalen en gestructureerde tekstformaten als HTML, Markdown, enz. Ook voor LaTeX zijn er goede plugins. Als je al gewend bent om VS Code te gebruiken, dan kan je het even goed ook gebruiken voor LaTeX. Het nadeel is misschien wel dat het wat complexer is om Code goed te configureren.
 
 ## Installatie
 
-We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Chocolatey](https://chocolatey.org)) of macOS ([Homebrew](https://brew.sh/)). Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://code.visualstudio.com/download>.
+We raden aan om een package manager te gebruiken voor de installatie van software, ook op Windows ([Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)) of macOS ([Homebrew](https://brew.sh/)). Als je toch verkiest dat niet te doen, dan kan je het downloaden via de website: <https://code.visualstudio.com/download>.
 
 === "Windows"
 
     ```console
-    choco install vscode
+    winget install Microsoft.VisualStudioCode
     ```
 
 === "macOS"
@@ -39,7 +39,7 @@ We raden aan om een package manager te gebruiken voor de installatie van softwar
 
 Installeer eerst en vooral de [LaTeX Workshop-extensie](https://marketplace.visualstudio.com/items?itemName=James-Yu.latex-workshop) van James-Yu.
 
-Plak de inhoud van dit bestand (zonder accolades) onderaan de User Settings (JSON) in Visual Studio Code. Je vindt de user settings door via F1 te zoeken naar "user settings".
+Plak de inhoud van het codeblok hieronder (zonder de buitenste accolades) onderaan de User Settings (JSON) in Visual Studio Code. Typ Ctrl+Shift+P in om het "command palette" te openen, en zoek "Preferences: open user settings (JSON)".
 
 ```json
 {
@@ -147,3 +147,8 @@ Plak de inhoud van dit bestand (zonder accolades) onderaan de User Settings (JSO
   ]
 }
 ```
+
+## Meer info
+
+- Maithripala, A. (2020) *How to create and compile LateX documents on Visual Studio Code.* Opgehaald 2024-02-10 van <https://dev.to/ucscmozilla/how-to-create-and-compile-latex-documents-on-visual-studio-code-3jbk>.
+- Van Vreckem, B. (2023) *Visual Studio Code settings - settings.json.* Opgehaald 2024-02-10 van <https://github.com/bertvv/dotfiles/blob/main/.config/Code/User/settings.json>

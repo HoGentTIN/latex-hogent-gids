@@ -14,11 +14,27 @@ Daarnaast gebruiken de LaTeX-sjablonen ook nog:
 - Fira Code (monogespatieerd lettertype voor broncode, met ligaturen)
 - Fira Math
 
-Je kan de fonts downloaden vanuit de Github-repo voor een Beamer-presentatie: <https://github.com/HoGentTIN/latex-hogent-beamer/tree/main/fonts>.
+Je kan de fonts downloaden vanuit de Github-repo voor de bachelorproef: <https://github.com/HoGentTIN/latex-hogent-bachproef/tree/main/fonts>.
 
-### Installatie
+Na downloaden kan je de lettertypes als volgt installeren:
 
-N.B. Lettertypes installeren kan je op zowel Windows, macOS als Linux door te dubbelklikken op het .otf-bestand en op de knop "Installeren" te klikken in het preview-venster. Je kan de bestanden ook kopiëren naar de directory met lettertypes: `C:\Windows\Fonts` voor Windows, `/Library/Fonts` of `~/Library/Fonts` op macOS, `/usr/share/fonts` of `~/.local/share/fonts` op Linux.
+=== "Windows"
+
+    In bestandsbeheer Shift+rechtsklikken op het lettertypebestand (.otf) en kiezen voor "Installeer voor alle gebruikers"
+
+    Je kan de bestanden ook kopiëren naar `C:\Windows\Fonts`
+
+=== "macOS"
+
+    In Finder dubbelklikken op het lettertypebestand (.otf) en in het preview-venster op de knop "Installeren" klikken.
+
+    Je kan de bestanden ook kopiëren naar `/Library/Fonts` (systeembreed) of `~/Library/Fonts` (enkel voor huidige gebruiker).
+
+=== "Debian/Ubuntu"
+
+    In bestandsbeheer dubbelklikken op het lettertypebestand (.otf) en in het preview-venster op de knop "Installeren" klikken.
+
+    Je kan de bestanden ook kopiëren naar `/usr/share/fonts` (systeembreed) of `~/.local/share/fonts` (enkel voor huidige gebruiker).
 
 ## Sjablonen in de HOGENT huisstijl
 

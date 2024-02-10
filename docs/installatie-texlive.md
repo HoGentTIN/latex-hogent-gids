@@ -8,9 +8,11 @@ Op Linux zijn de te installeren packages in principe beschikbaar via de reposito
 
 === "Windows"
 
-    ```console
-    choco install texlive --params="'/collections:fontsrecommended,latex,latexrecommended,langeuropean,pictures,xetex'"
-    ```
+    Volg de instructies op <https://www.tug.org/texlive/windows.html>
+    
+    - Download de [installer van de website](https://mirror.ctan.org/systems/texlive/tlnet/install-tl-windows.exe)
+    - Start deze op als Administrator en kies voor "Install"
+    - Onder "Geavanceerd" kan je in detail bepalen welke LaTeX packages je al dan niet installeert. Als je voldoende vrije schijfruimte hebt (8 a 9 GB), kan je ook gewoon alles installeren. De TeXworks frontend hoef je niet te installeren, voor deze cursus heb je die niet nodig.
 
 === "Debian/Ubuntu"
 
@@ -23,3 +25,9 @@ Op Linux zijn de te installeren packages in principe beschikbaar via de reposito
     ```console
     sudo dnf install texlive-collection-latex texlive-babel-dutch
     ```
+
+## Gebruik onder Windows
+
+- Je kan een lijst van geïnstalleerde en beschikbare pakketten bekijken en beheren via de *TeX Live Shell*. Deze moet met Administrator-rechten draaien, dus je krijgt bij opstarten de vraag of de app wijzigingen mag aanbrengen aan je systeem. Dit is nodig om de packages te installeren vanaf een CTAN (Comprehensive TeX Archive Network) repository.
+    - In het menu Opties > Informatiebronnen... kan je een CTAN mirror kiezen die dicht bij je locatie ligt.
+- Je kan een package installeren in een Administrator-terminal met `tlmgr install <package>`.

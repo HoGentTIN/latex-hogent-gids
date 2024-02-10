@@ -4,10 +4,10 @@
 
 ## Installatie
 
-We raden aan om een package manager te gebruiken om software te installeren op Windows ([Chocolatey](https://chocolatey.org/)). Indien je dit toch niet wenst te doen, dan kan je het downloaden via de website: <https://miktex.org/download>.
+We raden aan om een package manager te gebruiken om software te installeren op Windows ([Winget](https://learn.microsoft.com/en-us/windows/package-manager/winget/)). Indien je dit toch niet wenst te doen, dan kan je het downloaden via de website: <https://miktex.org/download>.
 
 ```console
-choco install miktex
+winget install  MiKTeX.MiKTeX
 ```
 
 ## Configuratie
