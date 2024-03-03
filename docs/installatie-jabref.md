@@ -36,6 +36,12 @@ We raden aan om een package manager te gebruiken voor de installatie van softwar
     sudo dnf install ./jabref*.rpm
     ```
 
+    Of installeer via snap:
+
+    ```console
+    sudo snap install jabref
+    ```
+
 ## Configuratie
 
 Binnen de LaTeX-wereld is er een apart subsysteem voor het correct opmaken van een referentielijst of bibliografie. Het "oude" systeem heet BibTeX en is vaak de standaard in LaTeX-editors. Het sjabloon voor de paper en ook dat voor de bachelorproef zijn echter gebaseerd op een modernere vervanger, BibLaTeX/biber. Pas Jabref aan om standaard het laatste te gebruiken.
