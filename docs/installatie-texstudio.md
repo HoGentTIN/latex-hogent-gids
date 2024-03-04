@@ -38,7 +38,7 @@ Kies in het menu voor Options > Configure TeXstudio en pas volgende instellingen
 
 - **Build**:
     - Default compiler: **XeLaTeX** (UTF-8 compatibel, mogelijkheid om TTF-lettertypes te gebruiken, enz.) in plaats van PDFLaTeX (enkel ASCII, PostScript lettertypes, enz.)
-    - Default Bibliography Tool: **Biber** (UTF-8 compatibel, ondersteuning voor APA-referenties, ...) in plaats van `bibtex` (enkel ASCII, geep APA-referenties, ...)
+    - Default Bibliography Tool: **Biber** (UTF-8 compatibel, ondersteuning voor APA-referenties, ...) in plaats van `bibtex` (enkel ASCII, geen APA-referenties, ...)
 - **Commands**:
     - xelatex: `xelatex -shell-escape -synctex=1 -interaction=nonstopmode -file-line-error %` (voeg de optie `-shell-escape` toe)
 - **Editor**:
