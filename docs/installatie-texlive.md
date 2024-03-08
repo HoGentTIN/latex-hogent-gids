@@ -17,7 +17,7 @@ Op Linux zijn de te installeren packages in principe beschikbaar via de reposito
 === "Debian/Ubuntu"
 
     ```console
-    sudo apt install texlive-base texlive-latex-base texlive-latex-recommended texlive-bibtex-extra texlive-pictures texlive-fonts-recommended
+    sudo apt install biber texlive-extra-utils texlive-fonts-recommended texlive-lang-european texlive-latex-base texlive-latex-extra texlive-latex-recommended texlive-pictures texlive-xetex python3-pygments latexmk
     ```
 
 === "RedHat/Fedora/SuSE"
@@ -29,5 +29,5 @@ Op Linux zijn de te installeren packages in principe beschikbaar via de reposito
 ## Gebruik onder Windows
 
 - Je kan een lijst van geïnstalleerde en beschikbare pakketten bekijken en beheren via de *TeX Live Shell*. Deze moet met Administrator-rechten draaien, dus je krijgt bij opstarten de vraag of de app wijzigingen mag aanbrengen aan je systeem. Dit is nodig om de packages te installeren vanaf een CTAN (Comprehensive TeX Archive Network) repository.
-    - In het menu Opties > Informatiebronnen... kan je een CTAN mirror kiezen die dicht bij je locatie ligt.
+  - In het menu Opties > Informatiebronnen... kan je een CTAN mirror kiezen die dicht bij je locatie ligt.
 - Je kan een package installeren in een Administrator-terminal met `tlmgr install <package>`.
