@@ -20,7 +20,7 @@ Na downloaden kan je de lettertypes als volgt installeren:
 
 === "Windows"
 
-    In bestandsbeheer Shift+rechtsklikken op het lettertypebestand (.otf) en kiezen voor "Installeer voor alle gebruikers"
+    In bestandsbeheer Shift+rechtsklikken op het lettertypebestand (.otf) en kiezen voor "**Installeer voor alle gebruikers**"
 
     Je kan de bestanden ook kopiëren naar `C:\Windows\Fonts`
 
