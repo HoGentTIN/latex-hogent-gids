@@ -18,6 +18,7 @@ nav:
     - "Jabref": "installatie-jabref.md"
   - "HOGENT huisstijl": "hogent-huisstijl.md"
   - "Hulpmiddelen, tools": "hulpmiddelen.md"
+  - "Vaak voorkomende problemen": "problemen.md"
 
 markdown_extensions:
   - pymdownx.superfences
