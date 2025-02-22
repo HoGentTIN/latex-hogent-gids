@@ -38,6 +38,10 @@ In het bijschrift zie je veel witruimte tussen de woorden, wat wijst op een "und
 
 Merk op dat het hier gaat om een waarschuwing en geen foutboodschap. Bekijk zeker de PDF om te kijken of de layout nog netjes is, en pas aan waar nodig. Maar als de layout ok is, hoef je niet noodzakelijk de waarschuwingen op te lossen.
 
+In het voorbeeld hieronder zijn de problemen opgelost: de afbeelding is correct geschaald en het woord `microservices-architectuur` is nu op een andere plaats gesplitst zodat de woorden de regel beter vullen. Merk op dat er nog wel witruimte aanwezig is, maar voor deze tekst hebben we nu de best mogelijke verdeling.
+
+![Resultaat na oplossen overfull en underfull hbox waarschuwingen.](images/hbox-fixed.png)
+
 ## Splitsen van woorden
 
 In normale omstandigheden is LaTeX slim genoeg om woorden correct te splitsen volgens de Nederlandstalige regels. Jammer genoeg wordt deze functionaliteit uitgeschakeld bij woorden met een koppelteken (`-`), bijvoor beeld `microservices-architectuur`. LaTeX zal dit woord enkel nog splitsen aan het koppelteken, waardoor het woord ofwel door de rechtermarge gaat, ofwel op de volgende regel gezet wordt maar met te veel witruimte tussen de woorden. Je krijgt dan bovendien een "[Overfull/Underfull hbox](#overfullunderfull-hbox)" waarschuwing.
