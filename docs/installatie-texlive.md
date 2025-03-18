@@ -23,7 +23,7 @@ Op Linux zijn de te installeren packages in principe beschikbaar via de reposito
 === "RedHat/Fedora/SuSE"
 
     ```console
-    sudo dnf install texlive-collection-latex texlive-babel-dutch
+    sudo dnf install biber latexmk python3-pygments texlive-collection-latex texlive-collection-latexextra texlive-collection-latexrecommended texlive-collection-xetex texlive-babel-dutch texlive-minted
     ```
 
 ## Gebruik onder Windows

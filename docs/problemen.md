@@ -1,5 +1,7 @@
 # Vaak voorkomende problemen
 
+Op deze pagina vind je enkele van de meest voorkomende LaTeX-problemen die studenten ondervinden bij en tips om deze op te lossen.
+
 ## Font niet gevonden
 
 ![Error message: font cannot be found.](images/error-font-cannot-be-found.png)

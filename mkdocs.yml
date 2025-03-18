@@ -16,9 +16,13 @@ nav:
     - "TeXStudio": "installatie-texstudio.md"
     - "VS Code": "installatie-vscode.md"
     - "Jabref": "installatie-jabref.md"
+  - "Packages":
+    - "minted": "installatie-minted.md"
   - "HOGENT huisstijl": "hogent-huisstijl.md"
   - "Hulpmiddelen, tools": "hulpmiddelen.md"
-  - "Vaak voorkomende problemen": "problemen.md"
+  - "Problemen":
+    - "Checklist, hulp vragen": "problemen-checklist.md"
+    - "Vaak voorkomende problemen": "problemen.md"
 
 markdown_extensions:
   - pymdownx.superfences
