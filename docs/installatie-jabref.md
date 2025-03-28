@@ -42,6 +42,18 @@ We raden aan om een package manager te gebruiken voor de installatie van softwar
     sudo snap install jabref
     ```
 
+Optioneel (maar warm aanbevolen) kan je ook `bibla` installeren, een linter/style checker voor BibLaTeX-bestanden. Het is een Python-applicatie die je kan installeren via pip:
+
+```console
+pip install bibla
+```
+
+Bibla is een CLI-tool die je oproept met:
+
+```console
+bibla lint <bestandsnaam>.bib
+```
+
 ## Configuratie
 
 Binnen de LaTeX-wereld is er een apart subsysteem voor het correct opmaken van een referentielijst of bibliografie. Het "oude" systeem heet BibTeX en is vaak de standaard in LaTeX-editors. Het sjabloon voor de paper en ook dat voor de bachelorproef zijn echter gebaseerd op een modernere vervanger, BibLaTeX/biber. Pas Jabref aan om standaard het laatste te gebruiken.
