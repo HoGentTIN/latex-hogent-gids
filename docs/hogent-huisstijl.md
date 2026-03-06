@@ -14,7 +14,7 @@ Daarnaast gebruiken de LaTeX-sjablonen ook nog:
 - Fira Code (monogespatieerd lettertype voor broncode, met ligaturen)
 - Fira Math
 
-Je kan de fonts downloaden vanuit de Github-repo voor de bachelorproef: <https://github.com/HoGentTIN/latex-hogent-bachproef/tree/main/fonts>.
+Je kan de fonts downloaden vanuit deze Github-repo: <https://github.com/HoGentTIN/latex-hogent-beamer/tree/main/fonts>.
 
 Na downloaden kan je de lettertypes als volgt installeren:
 
